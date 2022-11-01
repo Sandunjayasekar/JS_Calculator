@@ -57,3 +57,12 @@ function fn9() {
     document.getElementById("display").innerHTML = previous + 9;
             
 }
+
+function feraser() {
+
+    let previous = document.getElementById("display").innerHTML;
+    let erasedPre = previous.slice(0, -1);
+    document.getElementById("display").innerHTML = erasedPre;
+
+
+}
