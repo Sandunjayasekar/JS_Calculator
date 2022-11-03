@@ -1,0 +1,52 @@
+#n1, #n2, #n3, 
+#n4, #n5, #n6, 
+#n7, #n8, #n9, 
+#n0 {
+
+    background-color: #4CAF50; /* Green */
+    border: 2px solid #0b0b0b; /* Green */
+    border-radius:12px;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+#nAD, #nDV, 
+#nMN, #nER,
+#nML, #nEQ,
+#nAC  {
+
+    background-color: #7c729a; /* Green */
+    border: 2px solid #a11111; /* Green */
+    border-radius:12px;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+
+}
+#nAC {
+    margin-left: 85px;
+}
+
+#nEQ {
+    background-color: aqua;
+}
+
+#nER {
+    background-color: #a63015;
+}
+
+#n0 {
+    margin-left: 95px;
+}
+
+#display {
+    font-size: 30px;
+}
+#cal {
+    text-align: center;
+}

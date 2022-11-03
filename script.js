@@ -66,3 +66,59 @@ function feraser() {
 
 
 }
+
+let firstSave;
+let secondSave;
+let op;
+
+function fnAD() {
+    firstSave = document.getElementById("display").innerHTML;
+    document.getElementById("display").innerHTML = 0;
+    op = 1;
+}
+
+function fnMN() {
+    firstSave = document.getElementById("display").innerHTML;
+    document.getElementById("display").innerHTML = 0;
+    op = 2;
+}
+
+function fnML() {
+    firstSave = document.getElementById("display").innerHTML;
+    document.getElementById("display").innerHTML = 0;
+    op = 3;
+}
+
+function fnDV() {
+    firstSave = document.getElementById("display").innerHTML;
+    document.getElementById("display").innerHTML = 0;
+    op = 4;
+}
+
+function fnEQ() {
+    secondSave = document.getElementById("display").innerHTML;
+    if(op == 1){
+        document.getElementById("display").innerHTML = parseInt(firstSave) + parseInt(secondSave);
+    
+    }else if(op == 2){
+        document.getElementById("display").innerHTML = parseInt(firstSave) - parseInt(secondSave);
+
+    }else if(op == 3){
+        document.getElementById("display").innerHTML = parseInt(firstSave) * parseInt(secondSave);
+
+    }else if(op == 4){
+        document.getElementById("display").innerHTML = parseInt(firstSave) / parseInt(secondSave);
+
+    }else {
+        document.getElementById("display").innerHTML = "Invalid Number";
+    }
+
+}
+
+function fnAC() {
+    document.getElementById("display").innerHTML = 0;
+    firstSave = 0;
+    secondSave = 0;
+    op = 0;
+
+}
